@@ -6,3 +6,5 @@ Multilinear map layer implementation for PyTorch
 
 `Multilinear((in1_features, ..., inN_features), out_features, bias=True)`
 
+## TODO
+If there are no issues, submit as a PR for PyTorch
