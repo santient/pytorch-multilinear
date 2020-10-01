@@ -35,7 +35,7 @@ class Multilinear(nn.Module):
     def forward(self, *inputs):
         return multilinear(inputs, self.weight, self.bias)
 
-    def extra_repr(self) -> str:
+    def extra_repr(self):
         return 'in_features={}, out_features={}, bias={}'.format(
             self.in_features, self.out_features, self.bias is not None
         )
